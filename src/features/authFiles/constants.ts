@@ -32,7 +32,9 @@ export type QuotaProviderType =
   | 'claude'
   | 'codex'
   | 'gemini-cli'
-  | 'kimi';
+  | 'kimi'
+  | 'kiro'
+  | 'github-copilot';
 
 export const QUOTA_PROVIDER_TYPES = new Set<QuotaProviderType>([
   'antigravity',
@@ -40,6 +42,8 @@ export const QUOTA_PROVIDER_TYPES = new Set<QuotaProviderType>([
   'codex',
   'gemini-cli',
   'kimi',
+  'kiro',
+  'github-copilot',
 ]);
 
 export const MIN_CARD_PAGE_SIZE = 3;
